@@ -35,7 +35,7 @@ class EmployeeSalary:
             else:
                 return 0 
         
-        return self.hours * EmployeeSalary.hourly_payment
+        return self.hours * self.hourly_payment
 
 
 
